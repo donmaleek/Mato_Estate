@@ -45,9 +45,9 @@ export default function Header() {
         </nav>
 
         {/* MOBILE SIGN UP BUTTON */}
-        <a href="#" className="bg-blue-600 text-white px-3 py-2 rounded-lg hover:bg-blue-700 transition sm:hidden flex-shrink-0">
+        <Link to='./signup'><a href="#" className="bg-blue-600 text-white px-3 py-2 rounded-lg hover:bg-blue-700 transition sm:hidden flex-shrink-0">
           Sign Up
-        </a>
+        </a></Link>
       </div>
     </header>
   );
