@@ -15,7 +15,7 @@ export default function Header() {
             className="w-16 h-16 sm:w-20 sm:h-20 object-contain transition-transform hover:scale-105" 
           />
           <Link to='/' className="flex sm:flex-row sm:items-baseline p-0.0001 ml-[-14px]">
-            <span className="text-slate-700 font-extrabold text-l sm:text-2xl">pandora-Gardens</span>
+            <span className="text-slate-700 font-extrabold text-l sm:text-2xl">pandora_Gardens</span>
             
           </Link>
         </div>
