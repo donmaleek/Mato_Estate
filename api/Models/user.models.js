@@ -33,11 +33,8 @@ const userSchema = new mongoose.Schema(
             type: String, // Short user bio or company description
             maxlength: [500, 'Description cannot exceed 500 characters'],
         },
-        isAdmin: {
-            type: Boolean,
-            default: false, // Default role is a normal user
-        },
-    },
+
+      },
     { timestamps: true } // Adds createdAt and updatedAt fields automatically
 );
 
